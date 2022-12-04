@@ -19,7 +19,7 @@
   See <a href="https://youtu.be/B4d14u1fISE">walkthrough</a> here.
 
   ## Visual <a id="visual"></a>
- ![](2022-12-04-01-25-58.png)
+ ![](asset/2022-12-04-01-25-58.png)
 
   ## Installation <a id="installation"></a>
   Clone the repository to your system, then install npm into your command line. Make sure you have node installed.
