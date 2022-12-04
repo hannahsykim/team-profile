@@ -119,11 +119,11 @@ function managerCard(manager) {
             <h5 class = "card-title">${manager.name}</h3>
             <small class="text-muted">${manager.role}</small>
         </div>
-        <div class = "card-body">
-            <p class = "card-text">Id: ${manager.id}</p>
-            <p class = "card-text">Email: ${manager.email}</p>
-            <p class = "card-text">Office Number: ${manager.officeNumber}</p>
-        </div>
+        <ul class = "list-group list-group-flush">
+            <li class = "list-group-item">Id: ${manager.id}</li>
+            <li class = "list-group-item">Email: ${manager.email}</li>
+            <li class = "list-group-item">Office Number: ${manager.officeNumber}</li>
+        </ul>
      </div>
     </div>
     `;
@@ -137,11 +137,11 @@ function engineerCard(engineer) {
             <h5 class = "card-title">${engineer.name}</h3>
             <small class="text-muted">${engineer.role}</small>
         </div>
-        <div class = "card-body">
-            <p class = "card-text">Id: ${engineer.id}</p>
-            <p class = "card-text">Email: ${engineer.email}</p>
-            <p class = "card-text">Github: ${engineer.github}</p>
-        </div>
+        <ul class = "list-group list-group-flush">
+            <li class = "list-group-item">Id: ${engineer.id}</li>
+            <li class = "list-group-item">Email: ${engineer.email}</li>
+            <li class = "list-group-item">Github: ${engineer.github}</li>
+        </ul>
      </div>   
     </div>
     `;
@@ -155,11 +155,11 @@ function internCard(intern) {
             <h5 class = "card-title">${intern.name}</h3>
             <small class="text-muted">${intern.role}</small>
         </div>
-        <div class = "card-body">
-            <p class = "card-text">Id: ${intern.id}</p>
-            <p class = "card-text">Email: ${intern.email}</p>
-            <p class = "card-text">School: ${intern.school}</p>
-        </div>
+        <ul class = "list-group list-group-flush">
+            <li class = "list-group-item">Id: ${intern.id}</li>
+            <li class = "list-group-item">Email: ${intern.email}</li>
+            <li class = "list-group-item">School: ${intern.school}</li>
+        </ul>
      </div>  
     </div>
     `;
