@@ -77,7 +77,7 @@ inquirer.prompt([
             {
                 type: 'input',
                 name: 'github',
-                message: 'What is your Github username?'
+                message: 'What is the Github username?'
             }
         ]).then(({ github }) => {
             employees.push(new Engineer(
