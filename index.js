@@ -116,8 +116,8 @@ function managerCard(manager) {
     <div class = "col-auto mb-3">
      <div class = "card" style="width: 18rem;">
         <div class = "card-header">
-            <h4 class = "card-title">${manager.name}</h3>
-            <p class = "card-role">${manager.role}</h4>
+            <h5 class = "card-title">${manager.name}</h3>
+            <small class="text-muted">${manager.role}</small>
         </div>
         <div class = "card-body">
             <p class = "card-text">Id: ${manager.id}</p>
@@ -134,8 +134,8 @@ function engineerCard(engineer) {
     <div class = "col-auto mb-3">
      <div class = "card" style="width: 18rem;">
         <div class = "card-header">
-            <h4 class = "card-title">${engineer.name}</h3>
-            <p class = "card-role">${engineer.role}</h4>
+            <h5 class = "card-title">${engineer.name}</h3>
+            <small class="text-muted">${engineer.role}</small>
         </div>
         <div class = "card-body">
             <p class = "card-text">Id: ${engineer.id}</p>
@@ -152,8 +152,8 @@ function internCard(intern) {
     <div class = "col-auto mb-3">
      <div class = "card" style="width: 18rem;">
         <div class = "card-header">
-            <h4 class = "card-title">${intern.name}</h3>
-            <p class = "card-role">${intern.role}</h4>
+            <h5 class = "card-title">${intern.name}</h3>
+            <small class="text-muted">${intern.role}</small>
         </div>
         <div class = "card-body">
             <p class = "card-text">Id: ${intern.id}</p>
